@@ -7,7 +7,7 @@ and messages Stephen a preview. They post unless he says stop.
 - 3 posts a week: Monday, Wednesday and Friday at 6:30 PM Central.
 - Usually 2 images and 1 reel. The reel goes on Monday or Wednesday.
 - Rotate the pillars so no two in a row match: 86 stories (the pain of running out), How it works (one feature at a time),
-  Behind the build (built behind a real bar, by restaurant people), Offer (soft open special through Jan 31, 2027; after that the 14-day free trial),
+  Behind the build (built behind a real bar, by restaurant people), Offer (soft open special through Jan 1, 2027; after that the 14-day free trial),
   Free guide (un86.app/foh-order-guide). An offer post at most every other week.
 - Read `log.json` first and do not repeat a headline or angle from the last 6 weeks.
 
@@ -20,7 +20,7 @@ and messages Stephen a preview. They post unless he says stop.
   Never say "before anyone notices" or similar.
 - Facts to keep straight: 14-day free trial, no card. Plans: Meat & Potatoes, The Whole Enchilada, Family Style.
   Invoice scan is on The Whole Enchilada and Family Style. Soft open special: free setup and 50% off the first 3 months,
-  first 10 restaurants, through January 31, 2027 (un86.app/softopen). Demo: demo.un86.app (or "the demo at un86.app").
+  for any restaurant that signs up by January 1, 2027 (no limit on how many; never say "first 10") (un86.app/softopen). Demo: demo.un86.app (or "the demo at un86.app").
 - Captions: hook line, 2 to 4 short paragraphs, one call to action (demo, link in bio, or the guide), 3 to 5 hashtags from:
   #restaurantowner #restaurantlife #barmanager #foh #restaurantmanagement #foodcost #inventory #smallbusiness #bartender
 - Reels post without music. Captions on screen carry them.
