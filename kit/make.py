@@ -10,7 +10,7 @@ Image types (all take "theme": "ink" or "paper"):
   list       kicker, headline, rows: [[label, text], ...]
   phone      kicker, headline, body, screen (a file in kit/img, e.g. "count.jpg")
   offer      kicker, headline, rows, button
-  html       inner (raw HTML inside the slide, for anything else)
+  html       inner (raw HTML inside the slide, for anything else; use IMG + "file.jpg" for images in kit/img)
 
 Reel ("type": "reel"):
   title:    {kicker, headline, sub}
@@ -28,6 +28,7 @@ CSS = (KIT / "base.css").read_text()
 LOGO_D = (KIT / "logo_dark.svg").read_text()
 LOGO_L = (KIT / "logo_light.svg").read_text()
 E = html.escape
+IMG = (KIT / "img").as_uri() + "/"
 
 EXTRA = """
 .s{display:flex;flex-direction:column}
@@ -154,7 +155,9 @@ def main(spec):
                 dest = OUT / f"{name}.mp4"; make_reel(pg, p, dest)
             else:
                 pg.set_viewport_size({"width": 1080, "height": 1350})
-                pg.set_content(page(slide_html(p), 1080, 1350)); pg.wait_for_timeout(400)
+                # Load from a file so local images (file:// paths in kit/img) are allowed.
+                tmpf = KIT / "_render.html"; tmpf.write_text(page(slide_html(p), 1080, 1350))
+                pg.goto(tmpf.as_uri()); pg.wait_for_load_state("load"); pg.wait_for_timeout(400); tmpf.unlink()
                 dest = OUT / f"{name}.jpg"
                 pg.locator(".s").screenshot(path=str(dest), type="jpeg", quality=92)
             made.append(str(dest.relative_to(ROOT)))
