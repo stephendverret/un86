@@ -1,1 +1,34 @@
-[]
+[
+ {
+  "date": "2026-11-25",
+  "pillar": "86 stories",
+  "type": "image",
+  "headline": "It's the Wednesday before Thanksgiving. Not the day to run out of to-go boxes.",
+  "file": "posts/2026-11-25-togo-boxes.jpg",
+  "bufferPostId": "6b04d393db52b449cf0ce20e"
+ },
+ {
+  "date": "2026-11-27",
+  "pillar": "Behind the build",
+  "type": "image",
+  "headline": "It started as a spreadsheet for one busy bar.",
+  "file": "posts/2026-11-27-started-spreadsheet.jpg",
+  "bufferPostId": "6b04d3996734c08a2697a929"
+ },
+ {
+  "date": "2026-11-23",
+  "pillar": "How it works",
+  "type": "reel",
+  "headline": "Demo reel: tap to count, every rep's order, text/email/call/website (posted by hand)",
+  "file": "",
+  "bufferPostId": ""
+ },
+ {
+  "date": "2026-11-21",
+  "pillar": "Launch",
+  "type": "carousel",
+  "headline": "Launch carousel: 86 means to run out; UN86 gets it back on the shelf; soft open special (posted by hand)",
+  "file": "",
+  "bufferPostId": ""
+ }
+]
