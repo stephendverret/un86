@@ -25,6 +25,13 @@ and messages Stephen a preview. They post unless he says stop.
   #restaurantowner #restaurantlife #barmanager #foh #restaurantmanagement #foodcost #inventory #smallbusiness #bartender
 - Reels post without music. Captions on screen carry them.
 
+## Using what's already planned
+- The Marketing app may already hold drafts for next week's dates (written before this run existed). Use their headline
+  and caption when they still fit, and rebuild the image with make.py (old app images are private, not public URLs).
+- Make one post each week a reel even if the drafts are all images: turn the best how-it-works draft into a reel using
+  the b-roll clips in kit/broll (count = counting on the phone, order = an order ready to send, ways = vendors by text,
+  email, call and website).
+
 ## Making the posts
 1. `pip install playwright` is already present in the container; run `python3 kit/make.py week.json`
    (see the docstring at the top of make.py for the JSON shape). Look at every image and at frames of every reel before scheduling.
